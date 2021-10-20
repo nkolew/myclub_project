@@ -1,3 +1,15 @@
 {
-    "python.pythonPath": "/home/nikolay/.local/share/virtualenvs/myclub_project-ffxSW-46/bin/python"
+    "python.pythonPath": "/home/nikolay/.local/share/virtualenvs/myclub_project-ffxSW-46/bin/python",
+    "cSpell.words": [
+        "myclub"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "myclub_db",
+            "group": "myclub",
+            "database": "${workspaceFolder:myclub_project}/db.sqlite3"
+        }
+    ]
 }
