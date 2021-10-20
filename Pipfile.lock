@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "80f7f1043a6463c4637c3223adafb656f078c8a9f2dd99f88fb672ad017f0cf9"
+            "sha256": "6eefe99b4e671d87e8cbad6f1c7e5d3466b36d142f77baa9d4dd413189b18022"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,14 @@
             "index": "pypi",
             "version": "==3.2.8"
         },
+        "python-decouple": {
+            "hashes": [
+                "sha256:011d3f785367c54a72cf8a07d3a7a48bb8cc1a0f8e6c70353ca5767ebf7c8c9d",
+                "sha256:68e4b3fcc97e24bc90eecc514852d0bf970f4ff031f5f7a6728ddafa9afefcaf"
+            ],
+            "index": "pypi",
+            "version": "==3.5"
+        },
         "pytz": {
             "hashes": [
                 "sha256:3672058bc3453457b622aab7a1c3bfd5ab0bdae451512f6cf25f64ed37f5b87c",
@@ -56,6 +64,13 @@
             ],
             "index": "pypi",
             "version": "==1.5.7"
+        },
+        "powerline-status": {
+            "hashes": [
+                "sha256:8c7e7da45beb2332bc8226b166b732ef70db2cb0a1f3f0fdc3c539115522ecb6"
+            ],
+            "index": "pypi",
+            "version": "==2.7"
         },
         "pycodestyle": {
             "hashes": [

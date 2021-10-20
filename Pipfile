@@ -5,10 +5,12 @@ name = "pypi"
 
 [packages]
 django = "*"
+python-decouple = "*"
 
 [dev-packages]
 autopep8 = "*"
 rope = "*"
+powerline-status = "*"
 
 [requires]
 python_version = "3.9"
