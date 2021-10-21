@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Displaying Model Data{% endblock title %}
+
+{% block content %}
+<h1>All Events in Database</h1>
+<ul>
+    {% for event in event_list %}
+    <li>{{ event.name }} </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
